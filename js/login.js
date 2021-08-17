@@ -4,7 +4,7 @@ document.getElementById("submit-btn").addEventListener("click", function () {
   const password = document.getElementById("password-input");
   const passwordValue = password.value;
   if (emailValue == "sontan@baap.com" && passwordValue == "secret") {
-    window.location.href = "banking.html";
+    window.location.href = "index2.html";
   } else {
     const errorMessage = document.getElementById("error-message");
     errorMessage.classList.remove("invisible");
